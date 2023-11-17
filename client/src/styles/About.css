@@ -1,0 +1,43 @@
+.About {
+    background-color: #e7e4e4;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.aboutHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutStart {
+    padding: 10px;
+    border: solid 4px black;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore {
+    border-left: solid 2.5px black;
+    border-right: solid 2.5px black;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.exploreContainer_1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.exploreContainer_2 {
+    display: flex;
+    justify-content: center;
+}

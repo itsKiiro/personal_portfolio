@@ -1,0 +1,40 @@
+.navContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+}
+
+.navLink {
+    list-style: none;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.navLink:last-of-type {
+    background-color: #fff;
+    color: black;
+    border-radius: 44px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.Home {
+    background-color: #e7e4e4;
+}

@@ -1,0 +1,28 @@
+.Skills {
+    background-color: #e7e4e4;
+    padding-bottom: 100px;
+}
+
+.skillContainer {
+    padding-left: 24%;
+    padding-right: 24%;
+}
+
+.skillIcons_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillIcons_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillImage {
+    width: 100px;
+}
+
+.skill {
+    text-align: center;
+}
+

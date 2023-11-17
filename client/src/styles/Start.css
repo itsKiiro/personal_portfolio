@@ -1,0 +1,39 @@
+.left-side {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-side {
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    transform-origin: center top;
+    transform: skewX(-10deg); 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.split-layout {
+    display: flex;
+}
+
+.right-side-container {
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+
+.profileImage {
+    width: 500px;
+    transform: skewX(10deg);
+    position: absolute;
+    margin-left: 400px;
+    bottom: 25%;
+    border-radius: 40px;
+}
