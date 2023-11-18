@@ -2,6 +2,8 @@
     background-color: #e7e4e4;
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .aboutHeader {
@@ -15,6 +17,9 @@
     width: 20%;
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
 }
 
 .aboutInfo {
@@ -29,15 +34,46 @@
     border-right: solid 2.5px black;
     padding-left: 17px;
     padding-right: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .exploreContainer_1 {
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
+    margin-bottom: 40px;
 }
 
 .exploreContainer_2 {
     display: flex;
     justify-content: center;
+}
+
+.aboutBoxImage {
+    position: absolute;
+    width: 40px;
+    opacity: 0.4;
+}
+
+.aboutBox {
+    gap: 10px;
+}
+
+.aboutFont {
+    margin-left: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+@media(max-width: 924px) {
+    .exploreContainer_1 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .aboutStart {
+        width: 80%;
+    }
 }

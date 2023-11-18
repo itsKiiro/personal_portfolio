@@ -28,3 +28,19 @@
     height: 200px;
     resize: none;
 }
+
+@media(max-width: 924px) {
+    .inputContainer {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .aboutInfo > p {
+        text-align: center;
+    }
+
+    .aboutInfo {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}

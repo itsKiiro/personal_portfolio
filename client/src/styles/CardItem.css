@@ -1,0 +1,39 @@
+.CardItem {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.CardContent {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 1rem; 
+}
+
+.CardButton {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.CardButton.demoButton {
+    background-color: #28a745; 
+}
+
+.CardButton.codeButton {
+    background-color: #17a2b8; 
+}
+
+.CardButton:hover {
+    opacity: 0.8; 
+}

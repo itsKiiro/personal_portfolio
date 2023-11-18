@@ -10,15 +10,32 @@
     height: 100px;
     width: 100%;
     background-color: rgb(40, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottomDivider {
     height: 70px;
     width: 100%;
+    display: flex;
     background-color: rgb(40, 34, 34);
+    justify-content: center;
 }
 
 .portfolioPic {
     position: absolute;
     overflow: hidden;
+}
+
+.projectContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media(max-width: 924px) {
+    .projectContainer {
+        display: flex;
+        flex-direction: column;
+    }
 }
